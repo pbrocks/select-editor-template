@@ -14,5 +14,5 @@ I'm open to ideas on how templates should be extended. See `src/select-editor-te
 
 ## Credits
 
-* This project was originally bootstrapped with [Create Guten Block](https://github.com/ahmadawais/create-guten-block), thanks [@MrAhmadAwais](https://twitter.com/mrahmadawais/)!.
+* This project was originally bootstrapped with [Create Guten Block](https://github.com/ahmadawais/create-guten-block), thanks [@MrAhmadAwais](https://twitter.com/mrahmadawais/)!
 * When first poking around for solutions, I found [WP Gutenberg Templates](https://github.com/generoi/wp-gutenberg-templates/), which provided some inspiration.
