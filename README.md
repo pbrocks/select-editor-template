@@ -1,13 +1,18 @@
 # Select Editor Template
 
-This project was bootstrapped with [Create Guten Block](https://github.com/ahmadawais/create-guten-block), thanks [@MrAhmadAwais](https://twitter.com/mrahmadawais/)!.
+Select a block layout from a predefined list of templates in the new WordPress editor.
 
-Below you will find some information on how to run scripts.
+## Notes
 
-## 👉  `npm start`
-- Use to compile and run the component in development mode.
-- Watches for any changes and reports back any errors in your code.
+* Changing an post's template will wipe out existing blocks. This is captured in revisions if you need to revert. I'd like to make that better. :)
+* This only applies to the `post` post type right now. I'd like to extend it to work with others.
+* There is no way to extend templates via PHP yet, but that won't be tough to toss on. See the next section for extending with JavaScript.
 
-## 👉  `npm run build`
-- Use to build production code for the component inside `dist` folder.
-- Runs once and reports back the gzip file sizes of the produced code.
+## Extending available templates
+
+I'm open to ideas on how templates should be extended. See `src/select-editor-template/extend.js` for how things are currently managed. Any other plugin or theme can use `addFilter()` to register additional templates or remove those added by others.
+
+## Credits
+
+* This project was originally bootstrapped with [Create Guten Block](https://github.com/ahmadawais/create-guten-block), thanks [@MrAhmadAwais](https://twitter.com/mrahmadawais/)!.
+* When first poking around for solutions, I found [WP Gutenberg Templates](https://github.com/generoi/wp-gutenberg-templates/), which provided some inspiration.
