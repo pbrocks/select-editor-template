@@ -10,7 +10,7 @@ Select a block layout from a predefined list of templates in the new WordPress e
 
 ## Extending available templates
 
-I'm open to ideas on how templates should be extended. See `src/select-editor-template/extend.js` for how things are currently managed. Any other plugin or theme can use `addFilter()` to register additional templates or remove those added by others.
+I'm open to ideas on how templates should be extended. See `src/select-editor-template/extend.js` for how things are currently managed. Any other plugin or theme can use `wp.hooks.addFilter()` to register additional templates or remove those added by others.
 
 ## Credits
 
