@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Select Editor Template
  * Plugin URI: https://github.com/happyprime/select-editor-template/
- * Description: Select from a list of predefined editor templates.
+ * Description: Select a block layout from a predefined list of templates.
  * Author: jeremyfelt
  * Author URI: https://happyprime.co/
  * Version: 1.0.0
